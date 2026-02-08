@@ -526,3 +526,19 @@ body.yes-bg .success-content .caption{
 body.yes-bg .button-container{
   display: none !important;
 }
+
+/* =========================
+   YES page – smaller video
+========================= */
+
+.hidden-message .video-container {
+  margin-top: 12px;
+}
+
+.hidden-message .embedded-video {
+  width: 100% !important;
+  max-width: 360px !important;   /* make it smaller */
+  height: 200px !important;      /* fixed height so it never overflows */
+  border-radius: 16px;
+  display: block;
+}

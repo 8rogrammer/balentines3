@@ -542,3 +542,9 @@ body.yes-bg .button-container{
   border-radius: 16px;
   display: block;
 }
+
+.hidden-message .success-content{
+  justify-content: flex-end !important;
+  padding-bottom: 40px;   /* space from bottom edge */
+  min-height: 100%;
+}
